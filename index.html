@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="resources/twitter.3.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Home / X</title>
+</head>
+<body class="light">
+
+    <div id="body-div">
+
+        <div id="left">
+            <div id="button-bar">
+                <div>
+                    <button id="x">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z'%3E%3C/path%3E%3C/svg%3E" alt="X logo">
+                    </button>
+
+                    <div id="buttons">
+                        
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-house"></i>
+                            <span class="side-butt-text">Home</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-magnifying-glass"></i>
+                            <span class="side-butt-text">Explore</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-regular fa-bell"></i>
+                            <span class="side-butt-text">Notifications</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-user-group"></i>
+                            <span class="side-butt-text">Follow</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-regular fa-envelope"></i>
+                            <span class="side-butt-text">Chat</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-robot"></i>
+                            <span class="side-butt-text">Grok</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-regular fa-bookmark"></i>
+                            <span class="side-butt-text">Bookmarks</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-video"></i>
+                            <span class="side-butt-text">Creator Studio</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-crown"></i>
+                            <span class="side-butt-text">Premium</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-regular fa-user"></i>
+                            <span class="side-butt-text">Profile</span>
+                        </button>
+                        <button class="side-butt">
+                            <i class="side-butt-icon fa-solid fa-ellipsis"></i>
+                            <span class="side-butt-text">More</span>
+                        </button>
+                        <button class='side-butt' id="theme-toggle">Toggle Theme</button>
+                        <button class="side-butt">
+                            
+                            <span class="side-butt-text">Post</span>
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div id="profile-pill">
+                    <i class="account-icon fa-solid fa-circle-user"></i>
+                    <div id="user-info">
+                        <span id="username">Username</span>
+                        <span id="userid">@user</span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="center">
+            <div id="feed-options">
+                <button class="feed-butt">For you</button>
+                <button class="feed-butt">Following</button>
+            </div>
+
+            <div id="create-post">
+                <div id="post-content">
+                    <i class="account-icon fa-solid fa-circle-user"></i>
+                    <input type="text" id="text" placeholder="What's happening?">
+                </div>
+                <div id="post-options">
+                    <div id="post-ops">
+                        <i class="post-option fa-regular fa-image" id="image-icon"></i>
+                        <i class="post-option fa-solid fa-file-video"></i>
+                        <i class="post-option fa-solid fa-square-poll-horizontal"></i>
+                        <i class="post-option fa-regular fa-face-smile"></i>
+                        <i class="post-option fa-regular fa-calendar"></i>
+                        <i class="post-option fa-solid fa-location-dot"></i>
+                        <i class="post-option fa-solid fa-bolt"></i>
+                    </div>
+                    <input type="file" id="image-input" accept="image/*">
+                    <button id="post">Post</button>
+                </div>
+            </div>
+
+            <div id="feed">
+                
+                <div class="tweet">
+                    <i class="tweet-avatar fa-solid fa-circle-user"></i>
+                    <div class="tweet-content">
+                        <div class="tweet-header">
+                            <span class="tweet-name">Test</span>
+                            <span class="tweet-username">@test</span>
+                            <span class="tweet-time">· 2h</span>
+                        </div>
+                        <div class="tweet-text">Never gonna give you up, never gonna let you down!</div>
+                        <div class="tweet-actions">
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="fa-regular fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div id="right">
+            <div id="search">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-bar" placeholder="Search">
+            </div>
+
+            <div id="premium">
+                <h4 class="right-heading">Subscribe to Premium</h4>
+                <p>Get rid of ads, see your analytics, boost your replies and unlock 20+ features.</p>
+                <button id="subscribe">Subscribe</button>
+            </div>
+
+            <div id="news">
+                <h4 class="right-heading">Today's News</h4>
+                <div id="news-block">
+                    <div class="news-item">
+                        <h6 class="title">Trump Claims Iran Allows U.S. Oil Tankers Through Strait of Hormuz</h6>
+                        <div class="info">
+                            <i class="icons fa-solid fa-ellipsis"></i>
+                            <span class="time-cat-num">1 hour ago · News · 19.5k posts</span>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <h6 class="title">Ivory (@mide_io) sparks viral X discussion on why men cry on their wedding day</h6>
+                        <div class="info">
+                            <i class="icons fa-solid fa-ellipsis"></i>
+                            <span class="time-cat-num">Trending now · Other · 233 posts</span>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <h6 class="title">$6 Million to Ditch Instagram Forever?</h6>
+                        <div class="info">
+                            <i class="icons fa-solid fa-ellipsis"></i>
+                            <span class="time-cat-num">2 hours ago · Other · 463 posts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="happening">
+                <h4 class="right-heading">What's happening</h4>
+                <div id="topics">
+                    <div class="topic">
+                        <div class="details">
+                            <span class="trend-info">Trending in South Africa</span>
+                            <h5 class="trend-name">Samke</h5>
+                        </div>
+                        <i class="more-icon fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="topic">
+                        <div class="details">
+                            <span class="trend-info">Politics · Trending</span>
+                            <h5 class="trend-name">Ramaphosa</h5>
+                        </div>
+                        <i class="more-icon fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="topic">
+                        <div class="details">
+                            <span class="trend-info">Trending in South Africa</span>
+                            <h5 class="trend-name">#1lifeChangingLives</h5>
+                        </div>
+                        <i class="more-icon fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="topic">
+                        <div class="details">
+                            <span class="trend-info">#keepyourbusinessgrowing</span>
+                            <h5 class="trend-name">Samke</h5>
+                        </div>
+                        <i class="more-icon fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="follow">
+                <h4 class="right-heading">Who to follow</h4>
+                <div id="follows">
+                    <div class="follow">
+                        <i class="account-icon fa-solid fa-circle-user"></i>
+                        <div class="account-info">
+                            <h6 class="title">KATY PERRY</h6>
+                            <span class="trend-info">@katyperry</span>
+                        </div>
+                        <button class="follow">Follow</button>
+                    </div>
+                    <div class="follow">
+                        <i class="account-icon fa-solid fa-circle-user"></i>
+                        <div class="account-info">
+                            <h6 class="title">ELON MUSK</h6>
+                            <span class="trend-info">@elonmusk</span>
+                        </div>
+                        <button class="follow">Follow</button>
+                    </div>
+                    <div class="follow">
+                        <i class="account-icon fa-solid fa-circle-user"></i>
+                        <div class="account-info">
+                            <h6 class="title">X Engineering</h6>
+                            <span class="trend-info">@XEng</span>
+                        </div>
+                        <button class="follow">Follow</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">© 2025 X Corp.</div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
